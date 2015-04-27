@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		980ACFDB1AA655E400FDF6D1 /* CommonUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980ACFDA1AA655E400FDF6D1 /* CommonUIViewController.swift */; };
+		9820D5651AAC64C800266638 /* TimerNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9820D5641AAC64C800266638 /* TimerNode.swift */; };
+		982546E91A9D606C007112C9 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982546E81A9D606C007112C9 /* Settings.swift */; };
+		982546F21A9E1141007112C9 /* smoke.png in Resources */ = {isa = PBXBuildFile; fileRef = 982546F01A9E1141007112C9 /* smoke.png */; };
+		982546F51A9E1416007112C9 /* MyParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 982546F31A9E1416007112C9 /* MyParticle.sks */; };
+		982546F61A9E1416007112C9 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 982546F41A9E1416007112C9 /* spark.png */; };
+		982546F81A9E1610007112C9 /* Particle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982546F71A9E1610007112C9 /* Particle.swift */; };
+		982546FC1A9E316D007112C9 /* AboutMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982546FB1A9E316D007112C9 /* AboutMenuView.swift */; };
+		982546FE1A9E3881007112C9 /* AboutMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982546FD1A9E3881007112C9 /* AboutMenuVC.swift */; };
+		983747A51AC7EBC400726DCA /* flip_up.caf in Resources */ = {isa = PBXBuildFile; fileRef = 983747A41AC7E45D00726DCA /* flip_up.caf */; };
+		983747A61AC7EBC900726DCA /* flip_down.caf in Resources */ = {isa = PBXBuildFile; fileRef = 983747A31AC7E45D00726DCA /* flip_down.caf */; };
+		983747A81AC7EE1500726DCA /* match.caf in Resources */ = {isa = PBXBuildFile; fileRef = 983747A71AC7EE1000726DCA /* match.caf */; };
+		983747AA1AC8DE3000726DCA /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983747A91AC8DE3000726DCA /* SoundManager.swift */; };
+		983747AD1AC91E9A00726DCA /* Scores.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 983747AB1AC91E9A00726DCA /* Scores.xcdatamodeld */; };
+		984EBC2C1A9B5357008C02C1 /* ButtonSprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984EBC2B1A9B5357008C02C1 /* ButtonSprite.swift */; };
+		98558F771AA9561E009DEFD4 /* TileBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98558F761AA9561E009DEFD4 /* TileBoard.swift */; };
+		98558F791AA95A8B009DEFD4 /* GameTileSprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98558F781AA95A8B009DEFD4 /* GameTileSprite.swift */; };
+		98558F7B1AA96396009DEFD4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98558F7A1AA96396009DEFD4 /* Extensions.swift */; };
+		985CA12D1AA207CE009304BA /* CommonSKLabelNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985CA12C1AA207CE009304BA /* CommonSKLabelNode.swift */; };
+		988A3EA21AA5422C00702B0F /* GameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988A3EA11AA5422C00702B0F /* GameVC.swift */; };
+		988A3EA41AA5424000702B0F /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988A3EA31AA5424000702B0F /* GameView.swift */; };
+		988A3EA61AA5467700702B0F /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988A3EA51AA5467700702B0F /* GameScene.swift */; };
+		988A3EA81AA619E200702B0F /* NavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988A3EA71AA619E200702B0F /* NavController.swift */; };
+		98AFFA281ABAC11D00F025FC /* ClairSkill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AFFA271ABAC11D00F025FC /* ClairSkill.swift */; };
+		98AFFA2A1ABAC16300F025FC /* BurnSkill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AFFA291ABAC16300F025FC /* BurnSkill.swift */; };
+		98AFFA2D1ABB26E100F025FC /* GameOverVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AFFA2C1ABB26E100F025FC /* GameOverVC.swift */; };
+		98AFFA2F1ABB26F900F025FC /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AFFA2E1ABB26F900F025FC /* GameOverView.swift */; };
+		98AFFA311ABB270A00F025FC /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AFFA301ABB270A00F025FC /* GameOverScene.swift */; };
+		98B66A001A9377370067074A /* TileSprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B669FF1A9377370067074A /* TileSprite.swift */; };
+		98B66A021A9379A60067074A /* CommonSKSpriteNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B66A011A9379A60067074A /* CommonSKSpriteNode.swift */; };
+		98D373831A92C13F009CCA64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D373821A92C13F009CCA64 /* AppDelegate.swift */; };
+		98D3738A1A92C13F009CCA64 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98D373891A92C13F009CCA64 /* Images.xcassets */; };
+		98D3738D1A92C13F009CCA64 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98D3738B1A92C13F009CCA64 /* LaunchScreen.xib */; };
+		98D373991A92C13F009CCA64 /* Sacred_TilesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D373981A92C13F009CCA64 /* Sacred_TilesTests.swift */; };
+		98D373A61A92C673009CCA64 /* MainMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D373A51A92C672009CCA64 /* MainMenuVC.swift */; };
+		98D373AA1A92C963009CCA64 /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D373A91A92C963009CCA64 /* MainMenuView.swift */; };
+		98D373AD1A92C9E4009CCA64 /* CommonSKView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D373AC1A92C9E4009CCA64 /* CommonSKView.swift */; };
+		98D373AF1A92CC70009CCA64 /* CommonSKScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D373AE1A92CC70009CCA64 /* CommonSKScene.swift */; };
+		98F064F81AAE48BC006CFA33 /* ShadowedLabelNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F064F71AAE48BC006CFA33 /* ShadowedLabelNode.swift */; };
+		98F064FA1AAE57CC006CFA33 /* Scoring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F064F91AAE57CC006CFA33 /* Scoring.swift */; };
+		98F3E54C1A9C93D20075BB25 /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F3E54B1A9C93D20075BB25 /* Tile.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98D373931A92C13F009CCA64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98D373751A92C13F009CCA64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98D3737C1A92C13F009CCA64;
+			remoteInfo = "Sacred Tiles";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		980ACFDA1AA655E400FDF6D1 /* CommonUIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonUIViewController.swift; sourceTree = "<group>"; };
+		9820D5641AAC64C800266638 /* TimerNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerNode.swift; sourceTree = "<group>"; };
+		982546E81A9D606C007112C9 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		982546F01A9E1141007112C9 /* smoke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smoke.png; sourceTree = "<group>"; };
+		982546F31A9E1416007112C9 /* MyParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyParticle.sks; sourceTree = "<group>"; };
+		982546F41A9E1416007112C9 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		982546F71A9E1610007112C9 /* Particle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Particle.swift; sourceTree = "<group>"; };
+		982546FB1A9E316D007112C9 /* AboutMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutMenuView.swift; sourceTree = "<group>"; };
+		982546FD1A9E3881007112C9 /* AboutMenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutMenuVC.swift; sourceTree = "<group>"; };
+		983747A31AC7E45D00726DCA /* flip_down.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = flip_down.caf; sourceTree = "<group>"; };
+		983747A41AC7E45D00726DCA /* flip_up.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = flip_up.caf; sourceTree = "<group>"; };
+		983747A71AC7EE1000726DCA /* match.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = match.caf; sourceTree = "<group>"; };
+		983747A91AC8DE3000726DCA /* SoundManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
+		983747AC1AC91E9A00726DCA /* Scores.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Scores.xcdatamodel; sourceTree = "<group>"; };
+		984EBC2B1A9B5357008C02C1 /* ButtonSprite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonSprite.swift; sourceTree = "<group>"; };
+		98558F761AA9561E009DEFD4 /* TileBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TileBoard.swift; sourceTree = "<group>"; };
+		98558F781AA95A8B009DEFD4 /* GameTileSprite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameTileSprite.swift; sourceTree = "<group>"; };
+		98558F7A1AA96396009DEFD4 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		985CA12C1AA207CE009304BA /* CommonSKLabelNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonSKLabelNode.swift; sourceTree = "<group>"; };
+		988A3EA11AA5422C00702B0F /* GameVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameVC.swift; sourceTree = "<group>"; };
+		988A3EA31AA5424000702B0F /* GameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		988A3EA51AA5467700702B0F /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		988A3EA71AA619E200702B0F /* NavController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavController.swift; sourceTree = "<group>"; };
+		98AFFA271ABAC11D00F025FC /* ClairSkill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClairSkill.swift; sourceTree = "<group>"; };
+		98AFFA291ABAC16300F025FC /* BurnSkill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BurnSkill.swift; sourceTree = "<group>"; };
+		98AFFA2C1ABB26E100F025FC /* GameOverVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverVC.swift; sourceTree = "<group>"; };
+		98AFFA2E1ABB26F900F025FC /* GameOverView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverView.swift; sourceTree = "<group>"; };
+		98AFFA301ABB270A00F025FC /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		98B669FF1A9377370067074A /* TileSprite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TileSprite.swift; sourceTree = "<group>"; };
+		98B66A011A9379A60067074A /* CommonSKSpriteNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonSKSpriteNode.swift; sourceTree = "<group>"; };
+		98D3737D1A92C13F009CCA64 /* Sacred Tiles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sacred Tiles.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98D373811A92C13F009CCA64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98D373821A92C13F009CCA64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		98D373891A92C13F009CCA64 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		98D3738C1A92C13F009CCA64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		98D373921A92C13F009CCA64 /* Sacred TilesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sacred TilesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98D373971A92C13F009CCA64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98D373981A92C13F009CCA64 /* Sacred_TilesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sacred_TilesTests.swift; sourceTree = "<group>"; };
+		98D373A51A92C672009CCA64 /* MainMenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuVC.swift; sourceTree = "<group>"; };
+		98D373A91A92C963009CCA64 /* MainMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
+		98D373AC1A92C9E4009CCA64 /* CommonSKView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonSKView.swift; sourceTree = "<group>"; };
+		98D373AE1A92CC70009CCA64 /* CommonSKScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonSKScene.swift; sourceTree = "<group>"; };
+		98F064F71AAE48BC006CFA33 /* ShadowedLabelNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowedLabelNode.swift; sourceTree = "<group>"; };
+		98F064F91AAE57CC006CFA33 /* Scoring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scoring.swift; sourceTree = "<group>"; };
+		98F3E54B1A9C93D20075BB25 /* Tile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98D3737A1A92C13F009CCA64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98D3738F1A92C13F009CCA64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		982546EE1A9E1104007112C9 /* Particles */ = {
+			isa = PBXGroup;
+			children = (
+				982546F01A9E1141007112C9 /* smoke.png */,
+				982546F31A9E1416007112C9 /* MyParticle.sks */,
+				982546F41A9E1416007112C9 /* spark.png */,
+			);
+			name = Particles;
+			sourceTree = "<group>";
+		};
+		983747A21AC7E43F00726DCA /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				983747A71AC7EE1000726DCA /* match.caf */,
+				983747A31AC7E45D00726DCA /* flip_down.caf */,
+				983747A41AC7E45D00726DCA /* flip_up.caf */,
+				983747A91AC8DE3000726DCA /* SoundManager.swift */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		988A3EA01AA5420200702B0F /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				988A3EA11AA5422C00702B0F /* GameVC.swift */,
+				988A3EA31AA5424000702B0F /* GameView.swift */,
+				988A3EA51AA5467700702B0F /* GameScene.swift */,
+				98558F761AA9561E009DEFD4 /* TileBoard.swift */,
+				9820D5641AAC64C800266638 /* TimerNode.swift */,
+				98F064F91AAE57CC006CFA33 /* Scoring.swift */,
+				98AFFA2B1ABB26C200F025FC /* Game Over */,
+			);
+			name = Game;
+			sourceTree = "<group>";
+		};
+		98AFFA261ABAC0FE00F025FC /* Skills */ = {
+			isa = PBXGroup;
+			children = (
+				98AFFA271ABAC11D00F025FC /* ClairSkill.swift */,
+				98AFFA291ABAC16300F025FC /* BurnSkill.swift */,
+			);
+			name = Skills;
+			sourceTree = "<group>";
+		};
+		98AFFA2B1ABB26C200F025FC /* Game Over */ = {
+			isa = PBXGroup;
+			children = (
+				98AFFA2C1ABB26E100F025FC /* GameOverVC.swift */,
+				98AFFA2E1ABB26F900F025FC /* GameOverView.swift */,
+				98AFFA301ABB270A00F025FC /* GameOverScene.swift */,
+			);
+			name = "Game Over";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		98B669FE1A9376C50067074A /* Sprites */ = {
+			isa = PBXGroup;
+			children = (
+				98B669FF1A9377370067074A /* TileSprite.swift */,
+				984EBC2B1A9B5357008C02C1 /* ButtonSprite.swift */,
+				98F3E54B1A9C93D20075BB25 /* Tile.swift */,
+				982546F71A9E1610007112C9 /* Particle.swift */,
+				98558F781AA95A8B009DEFD4 /* GameTileSprite.swift */,
+				98F064F71AAE48BC006CFA33 /* ShadowedLabelNode.swift */,
+			);
+			name = Sprites;
+			sourceTree = "<group>";
+		};
+		98D373741A92C13F009CCA64 = {
+			isa = PBXGroup;
+			children = (
+				98D3737F1A92C13F009CCA64 /* Sacred Tiles */,
+				98D373951A92C13F009CCA64 /* Sacred TilesTests */,
+				98D3737E1A92C13F009CCA64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98D3737E1A92C13F009CCA64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98D3737D1A92C13F009CCA64 /* Sacred Tiles.app */,
+				98D373921A92C13F009CCA64 /* Sacred TilesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98D3737F1A92C13F009CCA64 /* Sacred Tiles */ = {
+			isa = PBXGroup;
+			children = (
+				983747A21AC7E43F00726DCA /* Sounds */,
+				98AFFA261ABAC0FE00F025FC /* Skills */,
+				988A3EA01AA5420200702B0F /* Game */,
+				98B669FE1A9376C50067074A /* Sprites */,
+				98D373AB1A92C9BE009CCA64 /* Common */,
+				98D373A21A92C1A4009CCA64 /* Menu */,
+				982546EE1A9E1104007112C9 /* Particles */,
+				98D373801A92C13F009CCA64 /* Supporting Files */,
+				98D373821A92C13F009CCA64 /* AppDelegate.swift */,
+				988A3EA71AA619E200702B0F /* NavController.swift */,
+				98558F7A1AA96396009DEFD4 /* Extensions.swift */,
+				98D373891A92C13F009CCA64 /* Images.xcassets */,
+				983747AB1AC91E9A00726DCA /* Scores.xcdatamodeld */,
+				98D3738B1A92C13F009CCA64 /* LaunchScreen.xib */,
+			);
+			path = "Sacred Tiles";
+			sourceTree = "<group>";
+		};
+		98D373801A92C13F009CCA64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				98D373811A92C13F009CCA64 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		98D373951A92C13F009CCA64 /* Sacred TilesTests */ = {
+			isa = PBXGroup;
+			children = (
+				98D373981A92C13F009CCA64 /* Sacred_TilesTests.swift */,
+				98D373961A92C13F009CCA64 /* Supporting Files */,
+			);
+			path = "Sacred TilesTests";
+			sourceTree = "<group>";
+		};
+		98D373961A92C13F009CCA64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				98D373971A92C13F009CCA64 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		98D373A21A92C1A4009CCA64 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				98D373A51A92C672009CCA64 /* MainMenuVC.swift */,
+				98D373A91A92C963009CCA64 /* MainMenuView.swift */,
+				982546FD1A9E3881007112C9 /* AboutMenuVC.swift */,
+				982546FB1A9E316D007112C9 /* AboutMenuView.swift */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		98D373AB1A92C9BE009CCA64 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				980ACFDA1AA655E400FDF6D1 /* CommonUIViewController.swift */,
+				98D373AC1A92C9E4009CCA64 /* CommonSKView.swift */,
+				98D373AE1A92CC70009CCA64 /* CommonSKScene.swift */,
+				98B66A011A9379A60067074A /* CommonSKSpriteNode.swift */,
+				985CA12C1AA207CE009304BA /* CommonSKLabelNode.swift */,
+				982546E81A9D606C007112C9 /* Settings.swift */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98D3737C1A92C13F009CCA64 /* Sacred Tiles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98D3739C1A92C13F009CCA64 /* Build configuration list for PBXNativeTarget "Sacred Tiles" */;
+			buildPhases = (
+				98D373791A92C13F009CCA64 /* Sources */,
+				98D3737A1A92C13F009CCA64 /* Frameworks */,
+				98D3737B1A92C13F009CCA64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sacred Tiles";
+			productName = "Sacred Tiles";
+			productReference = 98D3737D1A92C13F009CCA64 /* Sacred Tiles.app */;
+			productType = "com.apple.product-type.application";
+		};
+		98D373911A92C13F009CCA64 /* Sacred TilesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98D3739F1A92C13F009CCA64 /* Build configuration list for PBXNativeTarget "Sacred TilesTests" */;
+			buildPhases = (
+				98D3738E1A92C13F009CCA64 /* Sources */,
+				98D3738F1A92C13F009CCA64 /* Frameworks */,
+				98D373901A92C13F009CCA64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98D373941A92C13F009CCA64 /* PBXTargetDependency */,
+			);
+			name = "Sacred TilesTests";
+			productName = "Sacred TilesTests";
+			productReference = 98D373921A92C13F009CCA64 /* Sacred TilesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98D373751A92C13F009CCA64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = eCrow;
+				TargetAttributes = {
+					98D3737C1A92C13F009CCA64 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = CZTT3FD87F;
+					};
+					98D373911A92C13F009CCA64 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 98D3737C1A92C13F009CCA64;
+					};
+				};
+			};
+			buildConfigurationList = 98D373781A92C13F009CCA64 /* Build configuration list for PBXProject "Sacred Tiles" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98D373741A92C13F009CCA64;
+			productRefGroup = 98D3737E1A92C13F009CCA64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98D3737C1A92C13F009CCA64 /* Sacred Tiles */,
+				98D373911A92C13F009CCA64 /* Sacred TilesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98D3737B1A92C13F009CCA64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				983747A81AC7EE1500726DCA /* match.caf in Resources */,
+				983747A61AC7EBC900726DCA /* flip_down.caf in Resources */,
+				983747A51AC7EBC400726DCA /* flip_up.caf in Resources */,
+				98D3738D1A92C13F009CCA64 /* LaunchScreen.xib in Resources */,
+				982546F61A9E1416007112C9 /* spark.png in Resources */,
+				982546F21A9E1141007112C9 /* smoke.png in Resources */,
+				98D3738A1A92C13F009CCA64 /* Images.xcassets in Resources */,
+				982546F51A9E1416007112C9 /* MyParticle.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98D373901A92C13F009CCA64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98D373791A92C13F009CCA64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98558F771AA9561E009DEFD4 /* TileBoard.swift in Sources */,
+				984EBC2C1A9B5357008C02C1 /* ButtonSprite.swift in Sources */,
+				98B66A021A9379A60067074A /* CommonSKSpriteNode.swift in Sources */,
+				98AFFA281ABAC11D00F025FC /* ClairSkill.swift in Sources */,
+				98D373831A92C13F009CCA64 /* AppDelegate.swift in Sources */,
+				98AFFA2A1ABAC16300F025FC /* BurnSkill.swift in Sources */,
+				98D373AD1A92C9E4009CCA64 /* CommonSKView.swift in Sources */,
+				980ACFDB1AA655E400FDF6D1 /* CommonUIViewController.swift in Sources */,
+				982546E91A9D606C007112C9 /* Settings.swift in Sources */,
+				988A3EA81AA619E200702B0F /* NavController.swift in Sources */,
+				98AFFA311ABB270A00F025FC /* GameOverScene.swift in Sources */,
+				982546F81A9E1610007112C9 /* Particle.swift in Sources */,
+				98558F7B1AA96396009DEFD4 /* Extensions.swift in Sources */,
+				98AFFA2F1ABB26F900F025FC /* GameOverView.swift in Sources */,
+				98B66A001A9377370067074A /* TileSprite.swift in Sources */,
+				98D373AA1A92C963009CCA64 /* MainMenuView.swift in Sources */,
+				98AFFA2D1ABB26E100F025FC /* GameOverVC.swift in Sources */,
+				98558F791AA95A8B009DEFD4 /* GameTileSprite.swift in Sources */,
+				98F3E54C1A9C93D20075BB25 /* Tile.swift in Sources */,
+				983747AA1AC8DE3000726DCA /* SoundManager.swift in Sources */,
+				982546FE1A9E3881007112C9 /* AboutMenuVC.swift in Sources */,
+				98F064F81AAE48BC006CFA33 /* ShadowedLabelNode.swift in Sources */,
+				982546FC1A9E316D007112C9 /* AboutMenuView.swift in Sources */,
+				988A3EA61AA5467700702B0F /* GameScene.swift in Sources */,
+				98D373AF1A92CC70009CCA64 /* CommonSKScene.swift in Sources */,
+				98F064FA1AAE57CC006CFA33 /* Scoring.swift in Sources */,
+				983747AD1AC91E9A00726DCA /* Scores.xcdatamodeld in Sources */,
+				98D373A61A92C673009CCA64 /* MainMenuVC.swift in Sources */,
+				988A3EA21AA5422C00702B0F /* GameVC.swift in Sources */,
+				988A3EA41AA5424000702B0F /* GameView.swift in Sources */,
+				985CA12D1AA207CE009304BA /* CommonSKLabelNode.swift in Sources */,
+				9820D5651AAC64C800266638 /* TimerNode.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98D3738E1A92C13F009CCA64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98D373991A92C13F009CCA64 /* Sacred_TilesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98D373941A92C13F009CCA64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98D3737C1A92C13F009CCA64 /* Sacred Tiles */;
+			targetProxy = 98D373931A92C13F009CCA64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		98D3738B1A92C13F009CCA64 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98D3738C1A92C13F009CCA64 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98D3739A1A92C13F009CCA64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		98D3739B1A92C13F009CCA64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98D3739D1A92C13F009CCA64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Sacred Tiles/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		98D3739E1A92C13F009CCA64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Sacred Tiles/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		98D373A01A92C13F009CCA64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Sacred TilesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sacred Tiles.app/Sacred Tiles";
+			};
+			name = Debug;
+		};
+		98D373A11A92C13F009CCA64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Sacred TilesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sacred Tiles.app/Sacred Tiles";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98D373781A92C13F009CCA64 /* Build configuration list for PBXProject "Sacred Tiles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98D3739A1A92C13F009CCA64 /* Debug */,
+				98D3739B1A92C13F009CCA64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98D3739C1A92C13F009CCA64 /* Build configuration list for PBXNativeTarget "Sacred Tiles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98D3739D1A92C13F009CCA64 /* Debug */,
+				98D3739E1A92C13F009CCA64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98D3739F1A92C13F009CCA64 /* Build configuration list for PBXNativeTarget "Sacred TilesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98D373A01A92C13F009CCA64 /* Debug */,
+				98D373A11A92C13F009CCA64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		983747AB1AC91E9A00726DCA /* Scores.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				983747AC1AC91E9A00726DCA /* Scores.xcdatamodel */,
+			);
+			currentVersion = 983747AC1AC91E9A00726DCA /* Scores.xcdatamodel */;
+			name = Scores.xcdatamodeld;
+			path = ../Scores.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 98D373751A92C13F009CCA64 /* Project object */;
+}
